@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment6ArcFox</string>
+    <string name="title_activity_display_db">DisplayDB</string>
+    <string name="nodata">No Data</string>
+    <string name="save">Save</string>
+    <string name="display">Display</string>
+    <string name="clearDatabase">Clear Database</string>
+    <string name="enterValues">Enter Names</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="empty_file">Empty File</string>
+    <string name="add">ADD</string>
+
+</resources>
