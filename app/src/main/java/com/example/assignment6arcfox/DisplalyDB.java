@@ -91,7 +91,7 @@ public class DisplalyDB extends AppCompatActivity{
                 //this is returning a cursor this time, so need to get the string out of the cursor
 
                 int emailIndex = cursor1.getColumnIndex(PersonContract.PersonEntry.COLUMN_EMAIL);
-                String selectedEmail = cursor1.getString(emailIndex);
+                String[] selectedEmail = new String[] {cursor1.getString(emailIndex)};
 
                 int lastNameIndex = cursor1.getColumnIndex(PersonContract.PersonEntry.COLUMN_NAME_LAST);
                 String selectedLastName =  cursor1.getString(lastNameIndex);
